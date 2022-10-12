@@ -20,7 +20,7 @@ const routes:Routes=[
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule
+    RouterModule.forRoot(routes)
 
   ],
   providers: [],
